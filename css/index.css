@@ -6,4 +6,21 @@ body {
   border: 1px solid white;
   padding: 5px;
   margin: 5px;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .box {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .box {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .box {
+    width: 25%;
+  }
 }
