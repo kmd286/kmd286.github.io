@@ -3,6 +3,9 @@ body {
   color: green;
   padding: 5px;
 }
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
 .box {
   border: 1px solid white;
   padding: 5px;
@@ -12,7 +15,7 @@ body {
   float: left;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 800px) {
   .box {
     width: 50%;
   }
