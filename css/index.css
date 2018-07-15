@@ -40,3 +40,8 @@ h1, h2, h3, h4, h5, h6 {
     width: calc(25% - 32px);
   }
 }
+@media screen and (min-width: 3000px) {
+  .box {
+    width: calc(10% - 32px);
+  }
+}
