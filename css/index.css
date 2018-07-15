@@ -19,18 +19,24 @@ h1, h2, h3, h4, h5, h6 {
   display: block-inline;
   float: left;
 }
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: calc(100% - 32px);
+  }
+}
 @media screen and (max-width: 800px) {
   .box {
-    width: calc(50% - 40px);
+    width: calc(50% - 32px);
   }
 }
 @media screen and (min-width: 800px) {
   .box {
-    width: calc(33.33% - 40px);
+    width: calc(33.33% - 32px);
   }
 }
 @media screen and (min-width: 1000px) {
   .box {
-    width: calc(25% - 40px);
+    width: calc(25% - 32px);
   }
 }
