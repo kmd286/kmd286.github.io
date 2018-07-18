@@ -26,12 +26,12 @@ hr {
 
 @keyframes hr-animation {
   0% {background-color: red; color: red;}
-  12.5% {background-color: orange; color: orange;}
-  0% {background-color: yellow; color: yellow;}
-  0% {background-color: green; color: green;}
-  0% {background-color: blue; color: blue;}
-  0% {background-color: indigo; color: indigo;}
-  0% {background-color: purple; color: purple;}
+  14.286% {background-color: orange; color: orange;}
+  28.572% {background-color: yellow; color: yellow;}
+  42.858% {background-color: green; color: green;}
+  57.144% {background-color: blue; color: blue;}
+  71.43% {background-color: indigo; color: indigo;}
+  85.716% {background-color: purple; color: purple;}
   100% {background-color: red; color: red;}
 }
 
