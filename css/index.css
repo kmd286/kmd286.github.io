@@ -14,7 +14,7 @@ header {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
-hr { color: red; size: 4px;}
+hr { color: red; background-color: red; padding: 1px;}
 a { text-decoration: none; }
 .box {
   border: 1px solid white;
