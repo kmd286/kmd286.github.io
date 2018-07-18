@@ -25,7 +25,7 @@ a { text-decoration: none; }
 }
 .left { float: left !important; }
 .right { float: right !important; }
-.right { float: none !important; margin: 0 auto; }
+.center { float: left !important; margin: 0 auto; }
 
 @media screen and (max-width: 500px) {
   .box {
