@@ -20,7 +20,7 @@ hr {
   background-color: red;
   padding: 1px;
   animation-name: hr-animation;
-  animation-duration: 20s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;    
 }
 
