@@ -18,21 +18,22 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   color: red;
   background-color: red;
-  padding: 1px;
+  padding: 2px;
+  border: 1px solid red;
   animation-name: hr-animation;
   animation-duration: 40s;
   animation-iteration-count: infinite;    
 }
 
 @keyframes hr-animation {
-  0% {background-color: red; color: red;}
-  14.28% {background-color: orange; color: orange;}
-  28.57% {background-color: yellow; color: yellow;}
-  42.85% {background-color: green; color: green;}
-  57.14% {background-color: blue; color: blue;}
-  71.43% {background-color: indigo; color: indigo;}
-  85.71% {background-color: purple; color: purple;}
-  100% {background-color: red; color: red;}
+  0% {background-color: red; color: red; border-color: red; }
+  14.28% {background-color: orange; color: orange; border-color: orange; }
+  28.57% {background-color: yellow; color: yellow; border-color: yellow; }
+  42.85% {background-color: green; color: green; border-color: green; }
+  57.14% {background-color: blue; color: blue; border-color: blue; }
+  71.43% {background-color: indigo; color: indigo; border-color: indigo; }
+  85.71% {background-color: purple; color: purple; border-color: purple; }
+  100% {background-color: red; color: red;border-color: red; }
 }
 
 a { text-decoration: none; }
