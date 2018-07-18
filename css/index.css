@@ -21,8 +21,10 @@ a { text-decoration: none; }
   margin: 5px;
   width: 100%;
   display: block-inline;
-  float: left;
+  /*float: left;*/
 }
+.left { float: left; }
+.right { float: right; }
 
 @media screen and (max-width: 500px) {
   .box {
