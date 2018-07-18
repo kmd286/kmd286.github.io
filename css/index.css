@@ -1,6 +1,9 @@
+* { 
+  color: green;
+}
+
 body {
   background-color: black;
-  color: green;
   padding: 5px;
   max-width: 100%;
 }
