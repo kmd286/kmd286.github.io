@@ -14,7 +14,24 @@ header {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
-hr { color: red; background-color: red; padding: 1px;}
+
+hr {
+  color: red;
+  background-color: red;
+  padding: 1px;
+  animation-name: hr-animation;
+  animation-duration: 4s;
+}
+
+@keyframes hr-animation {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: blue;}
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
 a { text-decoration: none; }
 .box {
   border: 1px solid white;
